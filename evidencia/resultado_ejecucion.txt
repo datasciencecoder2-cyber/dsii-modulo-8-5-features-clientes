@@ -1,0 +1,67 @@
+EJECUCION PYTHON
+
+01_ltv_todos_clientes.sql: 12 filas
+{'cliente_id': 1, 'nombre': 'Ana', 'ciudad': 'Buenos Aires', 'cantidad_compras': 4, 'gasto_total': 300.0}
+{'cliente_id': 2, 'nombre': 'Bruno', 'ciudad': 'Buenos Aires', 'cantidad_compras': 5, 'gasto_total': 240.0}
+{'cliente_id': 3, 'nombre': 'Carla', 'ciudad': 'Buenos Aires', 'cantidad_compras': 3, 'gasto_total': 270.0}
+{'cliente_id': 4, 'nombre': 'Diego', 'ciudad': 'Buenos Aires', 'cantidad_compras': 0, 'gasto_total': 0}
+{'cliente_id': 5, 'nombre': 'Elena', 'ciudad': 'Cordoba', 'cantidad_compras': 4, 'gasto_total': 300.0}
+{'cliente_id': 6, 'nombre': 'Fabio', 'ciudad': 'Cordoba', 'cantidad_compras': 4, 'gasto_total': 300.0}
+{'cliente_id': 7, 'nombre': 'Gina', 'ciudad': 'Cordoba', 'cantidad_compras': 0, 'gasto_total': 0}
+{'cliente_id': 8, 'nombre': 'Hugo', 'ciudad': 'Rosario', 'cantidad_compras': 4, 'gasto_total': 240.0}
+{'cliente_id': 9, 'nombre': 'Iris', 'ciudad': 'Rosario', 'cantidad_compras': 5, 'gasto_total': 100.0}
+{'cliente_id': 10, 'nombre': 'Jorge', 'ciudad': 'Rosario', 'cantidad_compras': 4, 'gasto_total': 204.0}
+{'cliente_id': 11, 'nombre': 'Karen', 'ciudad': 'Buenos Aires', 'cantidad_compras': 4, 'gasto_total': 200.0}
+{'cliente_id': 12, 'nombre': 'Laura', 'ciudad': 'Mendoza', 'cantidad_compras': 0, 'gasto_total': 0}
+
+02_gasto_por_categoria.sql: 12 filas
+{'cliente_id': 1, 'nombre': 'Ana', 'ciudad': 'Buenos Aires', 'gasto_alimentos': 110.0, 'gasto_tecnologia': 190.0, 'gasto_total': 300.0}
+{'cliente_id': 2, 'nombre': 'Bruno', 'ciudad': 'Buenos Aires', 'gasto_alimentos': 155.0, 'gasto_tecnologia': 85.0, 'gasto_total': 240.0}
+{'cliente_id': 3, 'nombre': 'Carla', 'ciudad': 'Buenos Aires', 'gasto_alimentos': 180.0, 'gasto_tecnologia': 90.0, 'gasto_total': 270.0}
+{'cliente_id': 4, 'nombre': 'Diego', 'ciudad': 'Buenos Aires', 'gasto_alimentos': 0.0, 'gasto_tecnologia': 0.0, 'gasto_total': 0}
+{'cliente_id': 5, 'nombre': 'Elena', 'ciudad': 'Cordoba', 'gasto_alimentos': 100.0, 'gasto_tecnologia': 200.0, 'gasto_total': 300.0}
+{'cliente_id': 6, 'nombre': 'Fabio', 'ciudad': 'Cordoba', 'gasto_alimentos': 150.0, 'gasto_tecnologia': 150.0, 'gasto_total': 300.0}
+{'cliente_id': 7, 'nombre': 'Gina', 'ciudad': 'Cordoba', 'gasto_alimentos': 0.0, 'gasto_tecnologia': 0.0, 'gasto_total': 0}
+{'cliente_id': 8, 'nombre': 'Hugo', 'ciudad': 'Rosario', 'gasto_alimentos': 120.0, 'gasto_tecnologia': 120.0, 'gasto_total': 240.0}
+{'cliente_id': 9, 'nombre': 'Iris', 'ciudad': 'Rosario', 'gasto_alimentos': 60.0, 'gasto_tecnologia': 40.0, 'gasto_total': 100.0}
+{'cliente_id': 10, 'nombre': 'Jorge', 'ciudad': 'Rosario', 'gasto_alimentos': 102.0, 'gasto_tecnologia': 102.0, 'gasto_total': 204.0}
+{'cliente_id': 11, 'nombre': 'Karen', 'ciudad': 'Buenos Aires', 'gasto_alimentos': 100.0, 'gasto_tecnologia': 100.0, 'gasto_total': 200.0}
+{'cliente_id': 12, 'nombre': 'Laura', 'ciudad': 'Mendoza', 'gasto_alimentos': 0.0, 'gasto_tecnologia': 0.0, 'gasto_total': 0}
+
+03_segmento_activo_having.sql: 5 filas
+{'cliente_id': 1, 'nombre': 'Ana', 'ciudad': 'Buenos Aires', 'cantidad_compras': 4, 'gasto_total': 300.0, 'ticket_promedio': 75.0}
+{'cliente_id': 5, 'nombre': 'Elena', 'ciudad': 'Cordoba', 'cantidad_compras': 4, 'gasto_total': 300.0, 'ticket_promedio': 75.0}
+{'cliente_id': 6, 'nombre': 'Fabio', 'ciudad': 'Cordoba', 'cantidad_compras': 4, 'gasto_total': 300.0, 'ticket_promedio': 75.0}
+{'cliente_id': 8, 'nombre': 'Hugo', 'ciudad': 'Rosario', 'cantidad_compras': 4, 'gasto_total': 240.0, 'ticket_promedio': 60.0}
+{'cliente_id': 10, 'nombre': 'Jorge', 'ciudad': 'Rosario', 'cantidad_compras': 4, 'gasto_total': 204.0, 'ticket_promedio': 51.0}
+
+04_ranking_por_ciudad.sql: 5 filas
+{'cliente_id': 1, 'nombre': 'Ana', 'ciudad': 'Buenos Aires', 'cantidad_compras': 4, 'gasto_total': 300.0, 'ticket_promedio': 75.0, 'gasto_alimentos': 110.0, 'gasto_tecnologia': 190.0, 'ranking_en_ciudad': 1}
+{'cliente_id': 5, 'nombre': 'Elena', 'ciudad': 'Cordoba', 'cantidad_compras': 4, 'gasto_total': 300.0, 'ticket_promedio': 75.0, 'gasto_alimentos': 100.0, 'gasto_tecnologia': 200.0, 'ranking_en_ciudad': 1}
+{'cliente_id': 6, 'nombre': 'Fabio', 'ciudad': 'Cordoba', 'cantidad_compras': 4, 'gasto_total': 300.0, 'ticket_promedio': 75.0, 'gasto_alimentos': 150.0, 'gasto_tecnologia': 150.0, 'ranking_en_ciudad': 1}
+{'cliente_id': 8, 'nombre': 'Hugo', 'ciudad': 'Rosario', 'cantidad_compras': 4, 'gasto_total': 240.0, 'ticket_promedio': 60.0, 'gasto_alimentos': 120.0, 'gasto_tecnologia': 120.0, 'ranking_en_ciudad': 1}
+{'cliente_id': 10, 'nombre': 'Jorge', 'ciudad': 'Rosario', 'cantidad_compras': 4, 'gasto_total': 204.0, 'ticket_promedio': 51.0, 'gasto_alimentos': 102.0, 'gasto_tecnologia': 102.0, 'ranking_en_ciudad': 2}
+
+VALIDACIONES DE EJECUCION: OK
+
+PRUEBAS AUTOMATIZADAS
+test_01_estructura_y_integridad_referencial (test_consultas.TestFeaturesClientes.test_01_estructura_y_integridad_referencial) ... ok
+test_02_ltv_preserva_todos_los_clientes (test_consultas.TestFeaturesClientes.test_02_ltv_preserva_todos_los_clientes) ... ok
+test_03_ltv_clientes_sin_compras_igual_cero (test_consultas.TestFeaturesClientes.test_03_ltv_clientes_sin_compras_igual_cero) ... ok
+test_04_conteo_distinct_no_duplica_pedidos_multilinea (test_consultas.TestFeaturesClientes.test_04_conteo_distinct_no_duplica_pedidos_multilinea) ... ok
+test_05_agrupacion_por_categoria_preserva_clientes (test_consultas.TestFeaturesClientes.test_05_agrupacion_por_categoria_preserva_clientes) ... ok
+test_06_features_categoria_ana_y_elena (test_consultas.TestFeaturesClientes.test_06_features_categoria_ana_y_elena) ... ok
+test_07_reconciliacion_categorias_con_total (test_consultas.TestFeaturesClientes.test_07_reconciliacion_categorias_con_total) ... ok
+test_08_segmentacion_estricta_por_compras_y_ticket (test_consultas.TestFeaturesClientes.test_08_segmentacion_estricta_por_compras_y_ticket) ... ok
+test_09_ticket_promedio_es_por_pedido (test_consultas.TestFeaturesClientes.test_09_ticket_promedio_es_por_pedido) ... ok
+test_10_ranking_misma_poblacion_filtrada (test_consultas.TestFeaturesClientes.test_10_ranking_misma_poblacion_filtrada) ... ok
+test_11_ranking_reinicia_por_ciudad (test_consultas.TestFeaturesClientes.test_11_ranking_reinicia_por_ciudad) ... ok
+test_12_empate_comparte_posicion (test_consultas.TestFeaturesClientes.test_12_empate_comparte_posicion) ... ok
+test_13_categoria_extra_no_contamina_features (test_consultas.TestFeaturesClientes.test_13_categoria_extra_no_contamina_features) ... ok
+test_14_no_hay_sumas_duplicadas_tras_cuatro_joins (test_consultas.TestFeaturesClientes.test_14_no_hay_sumas_duplicadas_tras_cuatro_joins) ... ok
+test_15_cada_cliente_es_una_sola_fila (test_consultas.TestFeaturesClientes.test_15_cada_cliente_es_una_sola_fila) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.011s
+
+OK
